@@ -9,7 +9,12 @@ Hello from
         InetAddress ia = InetAddress.getLocalHost();
         String node = ia.getHostName();
         out.println(node);
-        //pageContext.setAttribute("node", node);
+    %>
+<br/ >
+    <%
+        String myValue = System.getenv().get("MYVALUE");
+        if (myValue != null)
+          out.println(myValue);
     %>
 </body>
 </html>
