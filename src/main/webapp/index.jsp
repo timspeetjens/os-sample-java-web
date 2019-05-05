@@ -1,7 +1,7 @@
 <%@ page import="java.net.InetAddress" %>
 <html>
 <body>
-<h2>Hello World with OpenShift!</h2>
+<h2>Hello World with OpenShift new webapp!</h2>
 
 Hello from
 
